@@ -30,7 +30,25 @@ public class MorseCode {
         O('o', true, true, true),
         P('p', false, true, true, false),
         Q('q', true, true, false, true),
-        R('r', false, true, false);
+        R('r', false, true, false),
+        S('s', false, false, false),
+        T('t', true),
+        U('u', false, false, true),
+        V('v', false, false, false, true),
+        W('w', false, true, true),
+        X('x', true, false, false, true),
+        Y('y', true, false, true, true),
+        Z('z', true, true, false, false),
+        ONE('1', false, true, true, true, true),
+        TWO('2', false, false, true, true, true),
+        THREE('3', false, false, false, true, true),
+        FOUR('4', false, false, false, false, true),
+        FIVE('5', false, false, false, false, false),
+        SIX('6', true, false, false, false, false),
+        SEVEN('7', true, true, false, false, false),
+        EIGHT('8', true, true, true, false, false),
+        NINE('9', true, true, true, true, false),
+        ZERO('0', true, true, true, true, true);
             
         private final char character;
         private final boolean[] code;
@@ -61,7 +79,9 @@ public class MorseCode {
             final String[] morse = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",
           ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-",  ".-.", "...", "-", "..-",
           "...-" ,".--" ,"-..-", "-.--", "--..", "|"};
-    
+        return "";    
+    }
+            
     public static boolean[] wordToMorseCode(String word) {
        return new boolean[] {}; 
     }
